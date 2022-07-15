@@ -13,6 +13,7 @@ import WarrantyPolicy from "./pages/WarrantyPolicy";
 import RefundPolicy from "./pages/RefundPolicy";
 import Term from "./pages/Term";
 import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/refund" element={<RefundPolicy />} />
           <Route path="/tc" element={<Term />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
         <Footer />
         <FooterStrip />
