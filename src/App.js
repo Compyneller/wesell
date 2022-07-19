@@ -14,6 +14,8 @@ import RefundPolicy from "./pages/RefundPolicy";
 import Term from "./pages/Term";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+import ThankYou from "./Modal/ThankYou";
+import Form from "./Modal/Form";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
           <Route path="/tc" element={<Term />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/form" element={<Form />} />
+          <Route path="/thank" element={<ThankYou />} />
         </Routes>
         <Footer />
         <FooterStrip />
